@@ -1,0 +1,9 @@
+C:\Development\Learning\Katas\String Katas\StringCalculator1\StringCalcualtor1.Tests\bin\Debug\StringCalcualtor1.Tests.dll
+C:\Development\Learning\Katas\String Katas\StringCalculator1\StringCalcualtor1.Tests\bin\Debug\StringCalcualtor1.Tests.pdb
+C:\Development\Learning\Katas\String Katas\StringCalculator1\StringCalcualtor1.Tests\bin\Debug\nunit.framework.dll
+C:\Development\Learning\Katas\String Katas\StringCalculator1\StringCalcualtor1.Tests\bin\Debug\nunit.framework.xml
+C:\Development\Learning\Katas\String Katas\StringCalculator1\StringCalcualtor1.Tests\obj\Debug\StringCalcualtor1.Tests.csprojResolveAssemblyReference.cache
+C:\Development\Learning\Katas\String Katas\StringCalculator1\StringCalcualtor1.Tests\obj\Debug\StringCalcualtor1.Tests.dll
+C:\Development\Learning\Katas\String Katas\StringCalculator1\StringCalcualtor1.Tests\obj\Debug\StringCalcualtor1.Tests.pdb
+C:\Development\Learning\Katas\String Katas\StringCalculator1\StringCalcualtor1.Tests\bin\Debug\StringCalculator1.dll
+C:\Development\Learning\Katas\String Katas\StringCalculator1\StringCalcualtor1.Tests\bin\Debug\StringCalculator1.pdb
