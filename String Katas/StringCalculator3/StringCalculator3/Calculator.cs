@@ -10,11 +10,19 @@ namespace StringCalculator3
     {
         public int Add(string numbers)
         {
-            if (numbers == "")
-                numbers = "0";
+            numbers = checkIfEmpty(numbers);
             int[] convertedNumbers = convertNumbers(numbers);
 
             return sumAllNumbers(convertedNumbers);
+        }
+
+        public string checkIfEmpty(string numbers)
+        {
+            if (numbers == "")
+                return "0";
+
+            else
+                return numbers;
         }
 
         public int[] convertNumbers(string numbers)

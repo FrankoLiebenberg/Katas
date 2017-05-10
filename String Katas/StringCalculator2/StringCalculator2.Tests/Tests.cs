@@ -94,17 +94,16 @@ namespace StringCalculator2.Tests
         {
             Calculator calc = new Calculator();
 
-            Assert.That(() => calc.Add("-100,-300"), Throws.Exception);
+            Assert.That(() => calc.Add("-100,-300"), Throws.Exception.Message.Contains("Negatives not allowed"));
 
         }
-
-
+        
         [Test]
         public void GivenSemiColonDelimiter_ShouldReturnSix()
         {
             Calculator calc = new Calculator();
 
-            var result = calc.Add("//;\n1\n2;3");
+            var result = calc.Add("//;\n1;2;3");
 
             Assert.AreEqual(6, result);
         }
