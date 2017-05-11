@@ -59,7 +59,7 @@ namespace StringCalculator4.Test
         public void GivenRandomCollectionBetweenOneAndAThousand_ShouldReturnSum()
         {
             Calculator calc = new Calculator();
-            Random rand = new Random();
+            Random rand = new Random(4516);
             int upperbounds = rand.Next(1, 1001);
             List<int> lstRandomNumbers = new List<int>();
             string numbers = "";
@@ -156,6 +156,17 @@ namespace StringCalculator4.Test
             var result = calc.Add("//[;;;][!!!]\n1!!!2;;;3");
 
             Assert.AreEqual(6, result);
+
+        }
+
+        [Test]
+        public void GivenOneAndTwoAndThreeWithFourCustomLengthDelimiters_ShouldReturnFifteen()
+        {
+            Calculator calc = new Calculator();
+
+            var result = calc.Add("//[;;;][!!!][|||][***]\n1!!!2;;;3|||4***5");
+
+            Assert.AreEqual(15, result);
 
         }
 
