@@ -43,9 +43,9 @@ namespace StringFactoryKata1
 
             string[] tempArrSplitNumbers = numbers.Split(lstDelimiters.ToArray(), StringSplitOptions.None);
 
-            if(numbers.Contains("["))
+            if (numbers.Contains("["))
             {
-                if(tempArrSplitNumbers[0].Contains("]"))
+                if (tempArrSplitNumbers[0].Contains("]"))
                     lstDelimiters = getMultiDelimiters(tempArrSplitNumbers[0], lstDelimiters);
             }
             else
@@ -83,7 +83,7 @@ namespace StringFactoryKata1
     {
         public override IDelimiters GetDelimiter(string numbers)
         {
-            string delimiter = ",";
+            string delimiter = "";
 
 
             if (numbers.Contains("\n"))
@@ -98,8 +98,6 @@ namespace StringFactoryKata1
                     delimiter = "New Line";
                 }
             }
-
-
 
             switch (delimiter)
             {
