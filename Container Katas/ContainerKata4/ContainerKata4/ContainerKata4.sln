@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContainerKata4", "ContainerKata4\ContainerKata4.csproj", "{EA0203B9-ECD2-4AD8-97A3-3FAE888E5723}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContainerKata4.Tests", "ContainerKata4.Tests\ContainerKata4.Tests.csproj", "{99E4D91E-13D1-4A4F-959E-79835417918D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA0203B9-ECD2-4AD8-97A3-3FAE888E5723}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA0203B9-ECD2-4AD8-97A3-3FAE888E5723}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA0203B9-ECD2-4AD8-97A3-3FAE888E5723}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA0203B9-ECD2-4AD8-97A3-3FAE888E5723}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99E4D91E-13D1-4A4F-959E-79835417918D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99E4D91E-13D1-4A4F-959E-79835417918D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99E4D91E-13D1-4A4F-959E-79835417918D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99E4D91E-13D1-4A4F-959E-79835417918D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
